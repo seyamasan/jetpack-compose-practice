@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mist">#7DA3A1</color>
+    <color name="very_dark_achromatic">#212121</color>
+    <color name="gray_1">#616161</color>
+    <color name="salmon_pink">#f3a68c</color>
+    <color name="dahlia_purple">#a50082</color>
+    <color name="cerulean_blue">#008db7</color>
+    <color name="chartreuse_yellow">#e3e548</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,24 @@
+name: kotest_ci
+
+# プッシュでワークフロー起動
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 18
+        uses: actions/setup-java@v3
+        with:
+          java-version: '18'
+          distribution: 'temurin'
+          cache: 'gradle'
+
+      - name: Grant gradle permission
+        run: chmod +x ./gradlew
+
+      - name: Run test
+        run: ./gradlew test
