@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Template Application"
+rootProject.name = "Jetpack Compose Practice"
 include(":app")
  

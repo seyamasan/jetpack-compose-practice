@@ -1,4 +1,4 @@
-Android app template.
+Jetpack compose study repository.
 
 ・Minimal view.
 
