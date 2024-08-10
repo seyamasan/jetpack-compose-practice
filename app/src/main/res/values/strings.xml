@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Jetpack Compose Practice</string>
+
+<!--    MainActivity-->
+    <string name="show_less">Show less</string>
+    <string name="show_more">Show more</string>
 </resources>
