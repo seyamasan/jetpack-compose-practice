@@ -1,6 +1,6 @@
 Jetpack compose study repository.
 
-・Room（Local db）
+・SQLite（Local db）
 
 ・kotest（Unit test / Automated）
 
